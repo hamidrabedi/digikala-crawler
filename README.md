@@ -34,9 +34,8 @@ This is a django app for scraping data from specified digikala search urls.
 
 - **Data Params**
 
-	- requierd:
-
-			digikala search url such as:
+	- requierd 
+	  digikala search url such as:
 
 			`category=https://www.digikala.com/search/?q=%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C`
 
