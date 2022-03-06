@@ -12,7 +12,9 @@ LOCAL_APPS=[
     'warehouse'
 ]
 THIRD_PARTY_PACKAGES = [
-    'rest_framework'
+    'rest_framework',
+    'rest_framework_swagger',
+    'drf_yasg'
 ]
 
 INSTALLED_APPS = DEFAULT_APPS + LOCAL_APPS + THIRD_PARTY_PACKAGES
@@ -32,6 +34,7 @@ REST_FRAMEWORK = {
     # 'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.AcceptHeaderVersioning',
     # 'ALLOWED_VERSIONS': ('1.0',),
     # Pagination
+    'DEFAULT_SCHEMA_CLASS':'rest_framework.schemas.coreapi.AutoSchema',
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 100
 }
