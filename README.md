@@ -20,6 +20,8 @@ This is a django app for scraping data from specified digikala search urls.
 
 # API Guide
 
+**You can use </api/doc> for swagger documentation**
+
  - **URL**
 
 	 <http://localhost:8000/api/category/>
