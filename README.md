@@ -51,8 +51,13 @@ This is a django app for scraping data from specified digikala search urls.
 		(default is 5)
 
 Features to improve project:
-	- Tests for api,data and models validations
-	- Crawl products based on availability of packs
-	- Automize crawl based on categories 
-	- more specific models
-	- Crawl all of the ratings and comments for better view of product
+
+- Tests for api,data and models validations
+
+- Crawl products based on availability of packs
+
+- Automize crawl based on categories 
+
+- more specific models
+
+- Crawl all of the ratings and comments for better view of product
